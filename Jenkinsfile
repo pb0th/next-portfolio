@@ -56,7 +56,7 @@ pipeline {
                         sh "docker rm ${CONTAINER_NAME}"
                     }
 
-                    sh "docker run -dp 4000:80 --name ${CONTAINER_NAME} ${IMAGE_NAME}"
+                    sh "docker run -dp 5000:3000 --name ${CONTAINER_NAME} ${IMAGE_NAME}"
                 }
             }   
             post {
