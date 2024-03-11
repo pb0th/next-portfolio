@@ -158,7 +158,7 @@ export default function HeroSection() {
                 className="text-4xl lg:text-7xl 2xl:text-9xl "
                 id="hero-section-intro-text-name"
               >
-                NEAK PANHBOTH2
+                NEAK PANHBOTH
               </h2>
               <h5
                 className="mt-6 text-sm lg:text-lg xl:text-2xl font-light tracking-widest text-center"
